@@ -1,0 +1,46 @@
+main{
+  height: 100vh;
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 36px;
+  padding: 36px;
+}
+
+.logo-container{
+  width: 250px;
+  height: 250px;
+  background-color: #333;
+  border-radius: 100%;
+  transition: transform .3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, .75);
+}
+
+.mascara{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background: radial-gradient(rgba(0, 0, 0, .05), rgba(0, 0, 0, .5));
+}
+
+.logo-container img{
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
+  filter: invert(100%);
+}
+
+.color-input{
+  padding: 16px;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+  width: 500px;
+}
